@@ -1,0 +1,244 @@
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family:'Red Hat Display', sans-serif;
+}
+.dark{
+  background:   #18191f;
+  color:white;
+}
+.dark header, .dark footer, .dark .sub-nav, .dark .notification, .dark input{
+  background:   #18191f;
+  color:white;
+}
+.dark #btn{
+  color:white;
+}
+@media(min-width:760px){
+   .container2, .container-btn{
+    margin:80px;
+  }
+  .container{
+    margin-left: 180px;
+  }
+  .container2{
+    margin-left: 180px;
+  }
+ nav .toggle{
+    display: none;
+  }
+  
+ .cancle2{
+   width:40px;
+   height:40px;
+   border-radius:20px;
+   border:1px solid grey;
+   margin-top: 0;
+   margin-bottom: 5px;;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+   text-align: center;
+   margin-left: 50%;
+ }
+  .notification {
+   width:65%;
+   position: absolute;
+   top:8%;
+   left:50%;
+   transform: translate(-50%, -50%);
+   margin-right:200px;
+   box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+   z-index:2;
+   background: white;
+   display:none;
+   font-size: 10px;
+ }
+}
+  @media(max-width:760px){
+   nav .sub-nav{
+     display: none;   
+    }
+.sub-nav{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+  background-color: white;
+  z-index:3;
+}
+.sub-nav p{
+  text-align: center;
+  margin-bottom:80px;
+}
+.cancle{
+  margin:50px;
+}
+.cancle2{
+   width:20px;
+   height:20px;
+   border-radius:10px;
+   border:1px solid grey;
+   margin-top: 0;
+   margin-bottom: 2px;;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+   text-align: center;
+   margin-left: 40%;
+ }
+ hide{
+   visibility: hidden;
+ }
+  .notification {
+   width:65%;
+   position: absolute;
+   top:20%;
+   left:50%;
+   transform: translate(-50%, -50%);
+   margin-right:200px;
+   box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+   z-index:2;
+   background: white;
+   display:none;
+ }
+  }
+header{
+  background:white;
+  box-shadow:0px 2px 4px 0px rgba(0,0,0,0.2);
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  margin-bottom:200px ;
+}
+footer{
+ background:white;
+  box-shadow:0px 4px 8px 0px rgba(0,0,0,0.2);
+  position: fixed;
+  bottom:0px;
+  left:0px;
+  width:100%;
+}
+footer p{
+  text-align: center;
+}
+.container{
+  margin-top:100px;
+}
+nav, .sub-nav{
+  display:flex;
+  justify-content: space-around;
+}
+.sub-nav p{
+  margin-right: 15px;
+}
+input{
+  width:32%;
+  margin: 10px;
+  padding:3px;
+  border-radius: 5px;
+  outline: none;
+  border:1px solid gray;
+  font-family:'Red Hat Display', sans-serif;
+}
+.ncourse, select{
+  width:60%;
+  padding:5%;
+  border-radius:50px;
+  outline: none;
+  border:1px solid grey;
+}
+ .info{
+   display:none;
+ }
+
+li{
+  list-style: none;
+}
+ parent-div{
+   display:flex;
+   justify-content: space-around;
+ }
+ .parent-div input{
+   padding:6px;
+   width:40%;
+   height:30px;
+   border-radius: 50px;
+ }
+ #btn{
+   background: dodgerblue;
+   border:none;
+   border-radius:50px;
+   display:none;
+   color:white;
+   padding:10px; outline: none;width:90px;
+   font-family:'Red Hat Display', sans-serif;
+   font-size: 15px;
+   margin-bottom:px;
+ }
+ .notification p{
+   margin: 20px;
+ }
+ .pointer{
+   position: absolute;
+   left:80%;
+   color:red;
+ }
+ img{
+   width:100%;
+ }
+ .usage-guide{
+   margin-top: 80px;
+   display: none;
+   margin-bottom: 100px;
+ }
+ .back{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:3px;
+   border-radius:3px;
+   width:80px;
+   height:30px;
+   box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+ }
+ .follow{
+   color:dodgerblue;
+ }
+ a{
+   text-decoration: none;
+ }
+ #result{
+   margin-bottom: 100px;
+   text-align: center;
+ }
+ .animatedbyScroll{
+ animation: fadeIn 1s linear;
+  opacity: 0;
+ }
+
+@keyframes fadeIn {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+  25% {
+    transform: scale(0.25, 0.25);
+  }
+  50% {
+    transform: scale(0.50, 0.50);
+  }
+  75% {
+    transform: scale(0.75, 0.75);
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+.animate{
+  opacity: 0;
+}
