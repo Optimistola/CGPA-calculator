@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="App.css" rel="stylesheet">
+  <link href="bootstrp.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/eeed2d1143.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/jpg" href="icon.png"  sizes="32x32">
+  <script src="App.js"></script>
+  <title>My CGPA || Calculator</title>
+</head>
+<body onload="myFunction()" onscroll="AnotherFunction()">
+   <header>
+     <nav>
+       <div>
+         <p>My CGPA Calculator</p>
+       </div>
+       <p 
+         class="fa fa-bars toggle" 
+         onclick="show()">
+       </p>
+       <div class="sub-nav">
+         <p 
+           class="fa fa-xmark toggle cancle" 
+           onclick="hide()">
+        </p>
+         <p onclick="showGuide()" class="p-btn">App Usage Guide</p>
+         <p onclick="changeMode()" class="p-btn mode"> Dark Mode &#9788; &#9789;</p>
+       </div>
+     </nav>
+   </header>
+   <div class="big-container">
+    <div class="container">
+      <input type="text" placeholder="Enter Your Total Number of courses" class="ncourse">
+    </div>
+    <div class="first-parent container2">
+    </div>
+    <div class="container-btn">
+      <button 
+      onclick="calculate()" 
+      id="btn">Calculate
+      </button>
+    </div>
+    <p id="result"></p>
+   <div class="notification">
+    <div class="pointer">
+     <p><i class="fa-solid fa-hand-pointer"></i></p>
+    </div>
+     <p>If this is your first time Using MyCgpa Calculator, i recommend Using The App Usage guide</p>
+     <div class="cancle2" onclick="cancle()">
+     <p><i class="fa-solid fa-xmark"></i></p>
+    </div>
+   </div>
+   </div>
+   <div class="usage-guide">
+     <div onclick="GoBack()" class="back"><i class="fa fa-arrow-left"></i> Back</div>
+     <p class="animate">My CGPA calculator has the following features</p>
+     <ul class="animate">
+       <li>* Calculate a semseter Gp (Firstor or second semester)</li>
+       <li>* Calculate For a whole seasion CGPA (first and second semester together)</li>
+       <li>* Calcule for a whole Academic Year (from 100 level to final year/ current year)</li>
+     </ul>
+     <p class="animate">So, to calculate for any of these, the procedure is all the same and it follows the following steps:</p>
+     <p class="animate"><b>Step1</b>: check your result first from the school portal
+       <img src="result.png">
+     </p>
+     <p class="animate"><b>Step2</b>: To calculate on semester basis, either first or second, just count the total number of curses You did for that semester and enter that total number and enter it here👇
+       <img src="no_course.png">
+     </p>
+     <p class="animate"><b>Step3</b>: Now, enter each Course Grade and Units In area provided for that. press calculate after when you might have entered all the required datas correctly. 
+       <img src="data.png">
+     </p>
+      <p class="animate"><b>Step4:</b>To calculate for a whole seasion or whole Academic year, it follows the same method:
+       <p class="animate">* Count the total number of Courses you did for that season (both in first and second semester all together). and enter it just in Step2 above. then continue with step  3.</p>
+       <p class="animate">* To do the same thing for a whole academic year, count the total number of courses yiu did from the first year till your current year and enter it just as in Step 2 above, continue with step 3</p>
+      </p>
+      <p class="animate">If you didn't get it, please read it again!! it's very straight forward</p>
+     
+   </div>
+   <footer>
+     <p>Developed By Optimist with ♥️<br>
+   wants to say Thank you? Just Follow me on Twitter 👉
+   <a class="fa fa-twitter follow" href="https//: twitter.com/d_optimist12/follow"></a>
+   </p>
+   </footer>
+   
+   
+</body>
+</html>
