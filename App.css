@@ -103,10 +103,10 @@ header{
    font-size: 10px;
  }
    .p-btn:hover{
- border:1px solid red;
- width:80px;
- border-radius:5px
-text-align: center;
+  border:1px solid red;
+  width:100px;
+  border-radius:5px;
+  text-align: center;
   margin-bottom:80px;
 }
 
