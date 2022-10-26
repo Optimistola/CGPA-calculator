@@ -43,7 +43,7 @@ body{
  }
 .p-btn:hover{
   border:1px solid red;
-  width:100px;
+  width:120px;
   border-radius:5px;
   text-align: center;
 }
@@ -64,6 +64,9 @@ body{
 .sub-nav p{
   text-align: center;
   margin-bottom:80px;
+}
+.sub-nav .p-btn:hover{
+  text-align:center;
 }
 .p-btn:hover{
   border:1px solid red;
