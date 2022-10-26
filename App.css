@@ -102,11 +102,12 @@ header{
    display:none;
    font-size: 10px;
  }
-  .sub-nav .p:hover{
+   .p:hover{
  border:1px solid red;
  width:30px;
+ border-radius:5px
 }
-  .sub-nav .p-btn:active{
+  .p-btn:active{
    background:red;
    }
 footer{
