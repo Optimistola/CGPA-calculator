@@ -102,7 +102,7 @@ header{
    display:none;
    font-size: 10px;
  }
-  .sub-nav .p-btn:hover{
+  .sub-nav .p:hover{
  border:1px solid red;
  width:30px;
 }
