@@ -43,7 +43,7 @@ body{
  }
 .p-btn:hover{
   border:1px solid red;
-  width:120px;
+  width:150px;
   border-radius:5px;
   text-align: center;
 }
@@ -65,14 +65,15 @@ body{
   text-align: center;
   margin-bottom:80px;
 }
-.sub-nav .p-btn:hover{
+.sub-nav p:hover{
   text-align:center;
 }
 .p-btn:hover{
   border:1px solid red;
-  width:100px;
+  width:120px;
   border-radius:5px;
   text-align: center;
+  margin-left:120px;
   margin-bottom:80px;
 }
 .cancle{
