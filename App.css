@@ -104,8 +104,10 @@ header{
  }
    .p-btn:hover{
  border:1px solid red;
- width:30px;
+ width:80px;
  border-radius:5px
+text-align: center;
+  margin-bottom:80px;
 }
 
 footer{
