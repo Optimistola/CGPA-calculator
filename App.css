@@ -90,7 +90,7 @@ header{
   margin-bottom:200px ;
 }
   .notification {
-   width:180px;
+   width:65%;
    position: absolute;
    top:50%;
    left:50%;
@@ -102,7 +102,7 @@ header{
    display:none;
    font-size: 10px;
  }
-p-btn:active{
+p-btn:hover{
  border:1px solid red;
  width:30px;
 }
