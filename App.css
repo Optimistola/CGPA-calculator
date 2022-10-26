@@ -102,14 +102,12 @@ header{
    display:none;
    font-size: 10px;
  }
-   .p:hover{
+   .p-btn:hover{
  border:1px solid red;
  width:30px;
  border-radius:5px
 }
-  .p-btn:active{
-   background:red;
-   }
+
 footer{
  background:white;
   box-shadow:0px 4px 8px 0px rgba(0,0,0,0.2);
