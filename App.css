@@ -91,7 +91,7 @@ header{
 }
   .notification {
    width:180px;
-   Height:120px;
+   height:120px;
    position: absolute;
    top:50%;
    left:50%;
@@ -103,6 +103,10 @@ header{
    display:none;
    font-size: 10px;
  }
+p-btn:active{
+ border:1px solid red;
+ width:30px;
+}
 footer{
  background:white;
   box-shadow:0px 4px 8px 0px rgba(0,0,0,0.2);
