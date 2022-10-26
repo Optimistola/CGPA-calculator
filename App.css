@@ -85,7 +85,7 @@ body{
    border-radius:10px;
    border:1px solid grey;
    margin-top: 0;
-   margin-bottom: 2px;;
+   margin-bottom: 2px;
    display: flex;
    justify-content: center;
    align-content: center;
@@ -93,7 +93,7 @@ body{
    text-align: center;
    margin-left: 40%;
  }
- hide{
+ .hide{
    visibility: hidden;
  }
   }
