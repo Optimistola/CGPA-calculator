@@ -102,11 +102,11 @@ header{
    display:none;
    font-size: 10px;
  }
-  .p-btn:hover{
+  .sub-nav .p-btn:hover{
  border:1px solid red;
  width:30px;
 }
-  .p-btn:active{
+  .sub-nav .p-btn:active{
    background:red;
    }
 footer{
