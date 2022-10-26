@@ -46,6 +46,8 @@ body{
   width:150px;
   border-radius:5px;
   text-align: center;
+  color:white;
+  background:red;
 }
 }
   @media(max-width:760px){
@@ -75,6 +77,8 @@ body{
   text-align: center;
   margin-left:120px;
   margin-bottom:80px;
+  color:white;
+  background:red;
 }
 .cancle{
   margin:50px;
