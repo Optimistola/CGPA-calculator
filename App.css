@@ -137,11 +137,11 @@ nav, .sub-nav{
 .sub-nav p{
   margin-right: 15px;
 }
-.container input{
+input{
   width:80%;
   margin: 10px;
   height:10px;
-  padding:5px;
+  padding:15px;
   border-radius: 5px;
   outline: none;
   border:1px solid gray;
@@ -150,7 +150,8 @@ nav, .sub-nav{
 .ncourse, select{
   width:100%;
   padding:5%;
-  border-radius:50px;
+  height:10px;
+ border-radius:50px;
   outline: none;
   border:1px solid grey;
 }
