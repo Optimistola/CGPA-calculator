@@ -47,14 +47,6 @@ padding:30px;
    text-align: center;
    margin-left: 50%;
  }
-.p-btn:hover{
-  border:1px solid red;
-  width:150px;
-  border-radius:5px;
-  text-align: center;
-  color:white;
-  background:red;
-}
 }
   @media(max-width:760px){
    nav .sub-nav{
