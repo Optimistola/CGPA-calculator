@@ -14,11 +14,6 @@ body{
   color:white;
 }
 @media(min-width:760px){
-  body{
-    padding:100px;
-}
-}
-@media(min-width:760px){
    .container2, .container-btn{
     margin:80px;
   }
