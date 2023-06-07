@@ -1,6 +1,11 @@
   @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 body{
   font-family:'Red Hat Display', sans-serif;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 .dark{
   background:   #18191f;
@@ -14,20 +19,16 @@ body{
   color:white;
 }
 .big-container{
-padding:30px;
 }
 @media(min-width:760px){
    .container2, .container-btn{
     margin:80px;
   }
   .big-container{
-    padding:120px;
   }
   .container{
-    margin-left: 180px;
   }
   .container2{
-    margin-left: 180px;
   }
  nav .toggle{
     display: none;
