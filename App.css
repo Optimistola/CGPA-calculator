@@ -13,14 +13,14 @@ body{
 .dark #btn{
   color:white;
 }
-.container{
+.big-parent{
 padding:30px;
 }
 @media(min-width:760px){
    .container2, .container-btn{
     margin:80px;
   }
-  .container2{
+  ..big-parent{
     padding:100%;
   }
   .container{
@@ -67,16 +67,6 @@ padding:30px;
 }
 .sub-nav p:hover{
   text-align:center;
-}
-.p-btn:hover{
-  border:1px solid red;
-  width:120px;
-  border-radius:5px;
-  text-align: center;
-  margin-left:120px;
-  margin-bottom:80px;
-  color:white;
-  background:red;
 }
 .cancle{
   margin:50px;
@@ -175,8 +165,8 @@ li{
  }
  .parent-div input{
    padding:6px;
-   width:40%;
-   height:30px;
+   width:30%;
+   height:20px;
    border-radius: 50px;
  }
  #btn{
