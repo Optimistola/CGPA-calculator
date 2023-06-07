@@ -15,7 +15,7 @@ body{
 }
 @media(min-width:760px){
   body{
-    padding:100%;
+    padding:100px;
 }
 }
 @media(min-width:760px){
