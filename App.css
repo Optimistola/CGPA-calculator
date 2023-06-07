@@ -13,15 +13,15 @@ body{
 .dark #btn{
   color:white;
 }
-.big-parent{
+.big-container{
 padding:30px;
 }
 @media(min-width:760px){
    .container2, .container-btn{
     margin:80px;
   }
-  ..big-parent{
-    padding:100%;
+  .big-container{
+    padding:120px;
   }
   .container{
     margin-left: 180px;
