@@ -13,9 +13,15 @@ body{
 .dark #btn{
   color:white;
 }
+.container{
+padding:30px;
+}
 @media(min-width:760px){
    .container2, .container-btn{
     margin:80px;
+  }
+  .container2{
+    padding:100%;
   }
   .container{
     margin-left: 180px;
